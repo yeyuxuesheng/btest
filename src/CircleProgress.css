@@ -1,0 +1,27 @@
+.air-quality {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+  
+.air-indicator {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+  /* 可选渐变色方案 */
+  .CircleProgress {
+    transition: stroke 0.3s ease;
+  }
+  
+  .CircleProgress:hover {
+    stroke: linear-gradient(90deg, #4CAF50, #8BC34A);
+  }
