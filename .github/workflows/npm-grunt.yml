@@ -57,3 +57,4 @@ jobs:
       with:
         folder: dist  # Vite默认构建输出目录
         branch: gh-pages  # 部署到的分支
+        token: ${{ secrets.GITHUB_TOKEN }}
